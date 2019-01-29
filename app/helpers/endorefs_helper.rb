@@ -1,0 +1,2 @@
+module EndorefsHelper
+end
