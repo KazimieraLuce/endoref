@@ -7,14 +7,14 @@
 <br />
 
 <div class="headline col-10 offset-1">
-
+  
   <% @articles.each do |article|%>
     <div>
       <h1 class="articleTitle"><%= article.title %></h1>
       <p class="articleDesc"><%= article.description %></p>
       <i><%= link_to "Read the article", article.url %></i><br />
     </div>
-
+ 
     <hr />
   <% end %>
 </div>
